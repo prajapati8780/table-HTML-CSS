@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html & css Table</title>
+    <link rel="stylesheet" href="Table Styel.css">
+    <style>
+        h1 {
+    font-size: 30px;
+    margin-bottom: 8px;
+    margin-top: 0px;
+    padding-right: 100px;
+    text-align: center;
+    color: black font-family:arial;
+
+
+}
+table {
+    width: 50%;
+    
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+
+}
+span {
+    color: blue;
+}
+
+
+.abc {
+    color: white;
+}
+
+td {
+    text-align: left;
+    font-size: 22px;
+    background-color: #838996;
+    background-image: linear-gradient(dimgray, gray, #838996);
+    text-align: center;
+    color: white;
+
+
+}
+
+th,
+td {
+    padding: 5px;
+
+}
+
+tr:nth-child(even) {
+    background-color: #fff;
+
+}
+
+tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+caption {
+
+    font-size: 10px;
+    font-weight: bold;
+    color: #4a646c;
+    margin-top: 10px;
+    text-align: left;
+}
+
+
+th img {
+
+    height: 50px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 100px;
+    border: 5px solid #ced0d2;
+
+}
+
+button {
+    color: white;
+    background-color: green;
+    </style>
+</head>
+
+<body>
+    <h1>Appointmentse</h1>
+    <table>
+        <caption>Patient</caption>
+        <tr>
+            <td>Patient</td>
+            <td>status</td>
+            <td>Appointment</td>
+            <td>phone</td>
+            <td>Doctor</td>
+            <td>Actions</td>
+        </tr>
+        <tr>
+            <th><img src="photo.jpg" alt="">
+                <p>Kiran Acharya<br>28 yrs,Male</p>
+            </th>
+
+
+
+            <th><button>consult</button></th>
+
+
+            <th> 06:00 PM<br>2 Feb 2021</th>
+            <th>+9198765343412<br><span>Contact</span></th>
+            <th>Dr.Ananth</th>
+            <th>:</th>
+        </tr>
+        <tr>
+            <th><img src="sandeep.jpg" alt="">
+                <p>Sandeep Hegde<br>32 yrs,Male</p>
+            </th>
+            <th><button>consult</button></th>
+            <th>06:15 PM<br>2 Feb 2021</th>
+            <th>+65435345678<br><span>Contact</span></th>
+            <th>Dr.Ananth</th>
+            <th>:</th>
+        </tr>
+        <tr>
+            <th><img src="john.jpg" alt="">
+                <p>John doe<br>27 yrs,female</p>
+            </th>
+            <th><button>consult</button></th>
+            <th>06:30 PM<br>2 Feb 2021</th>
+            <th class="contact">+914356789034<br><span>Contact</span></th>
+            <th>Dr.Ananth</th>
+            <th>:</th>
+        </tr>
+        <tr>
+            <th><img src="vishwanath.jpg" alt="">
+                <p>Vishwanath<br>25 yrs,Male</p>
+            </th>
+            <th><button>consult</button></th>
+            <th>06:45 PM<br>2 Feb 2021</th>
+            <th>+912345678904<br><span>Contact</span></th>
+            <th>Dr.Ananth</th>
+            <th>:</th>
+        </tr>
+        <tr>
+            <th><img src="kiran.jpg" alt="">
+                <p>Kiran Acharya<br>28 yrs,Male</p>
+            </th>
+
+            <th><button>consult</button></th>
+            <th>06:55 PM<br>2 Feb 2021</th>
+            <th>+912345678904<br><span>Contact</span></th>
+            <th>Dr.Ananth</th>
+            <th>:</th>
+        </tr>
+
+
+    </table>
+
+</body>
+
+</html>
